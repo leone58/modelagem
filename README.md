@@ -9,29 +9,6 @@ Este documento contém o **roteiro falado** da aula (o que dizer em voz alta), m
 
 ---
 
-## Como colocar o site no ar (GitHub Pages)
-
-O site é feito em HTML/CSS/JS puro (não precisa de servidor). Os arquivos ficam na pasta `public/`:
-
-- `public/index.html` — a página
-- `public/styles.css` — o visual
-- `public/script.js` — o conteúdo e as interações
-
-### Passo a passo
-
-1. Crie um repositório novo no GitHub (ex.: `aula-banco-de-dados`).
-2. Envie os **3 arquivos** (`index.html`, `styles.css` e `script.js`) para a **raiz** do repositório.
-   - Dica: no GitHub, use o botão **Add file → Upload files** e arraste os 3 arquivos.
-3. No repositório, vá em **Settings → Pages**.
-4. Em **Source**, escolha **Deploy from a branch**, selecione a branch `main` e a pasta `/ (root)`. Clique em **Save**.
-5. Aguarde ~1 minuto e recarregue a página. O GitHub vai mostrar o endereço do site, algo como:
-   `https://SEU-USUARIO.github.io/aula-banco-de-dados/`
-
-Pronto! É só abrir esse link no navegador (no computador da sala de aula, projetor, etc.).
-
-> **Testar no seu computador antes:** basta dar dois cliques no arquivo `index.html` que ele abre no navegador — os 3 arquivos precisam estar na mesma pasta.
-
----
 
 ## Índice dos blocos
 
